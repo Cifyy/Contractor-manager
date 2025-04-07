@@ -1,0 +1,76 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.loading {
+  display: none;
+}
+.searchForm {
+  position: sticky;
+  top: 0.7rem;
+  display: flex;
+  align-items: end;
+  height: 42px;
+  justify-content: end;
+  margin-right: 69px;
+  margin-top: 0.3rem;
+  gap: 0.5rem;
+  z-index: 11;
+}
+.header {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  z-index: 10;
+  top: 0rem;
+  padding-top: 0.6rem;
+  width: 100%;
+}
+.list {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  row-gap: 1rem;
+  margin: 0 auto;
+}
+.addButton:hover {
+  background-color: #3d74a7;
+  transition: 0.5s;
+}
+.addButton {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  margin-top: 0.2rem;
+  background-color: #509fe4;
+  margin-right: 2rem;
+}
+
+.horizontalPlus {
+  position: relative;
+  background-color: #ffffff;
+  width: 50%;
+  height: 12.5%;
+  left: 25%;
+  top: 43.75%;
+  border-radius: 2px;
+}
+.verticalPlus {
+  position: relative;
+  background-color: #ffffff;
+  width: 12.5%;
+  height: 50%;
+  left: 43.75%;
+  top: 12.5%;
+  border-radius: 2px;
+}
+.title {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-left: 3rem;
+}

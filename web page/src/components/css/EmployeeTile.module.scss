@@ -1,0 +1,35 @@
+.employee {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  // flex-direction: column;
+}
+.nameHolder {
+  line-height: 1.1;
+  width: 150px;
+  text-wrap: wrap;
+  // padding-bottom: 0.2rem;
+}
+.name {
+  font-weight: 600;
+}
+.role {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #868e96;
+}
+
+.email,
+.phone {
+  display: flex;
+  align-items: center;
+  text-wrap: noWrap;
+  font-weight: 500;
+  margin: 0.2rem;
+}
+.employeesHeaderName {
+  font-size: 1.5rem;
+}
+// .phoneIcon {
+//   color: #868e96;
+// }

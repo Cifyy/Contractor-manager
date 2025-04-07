@@ -1,0 +1,148 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-inline: 3rem;
+}
+.loading {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  // margin-left: 3rem;
+}
+.header {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  z-index: 10;
+  top: 0rem;
+  padding-top: 0.6rem;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+.addButton:hover {
+  background-color: #3d74a7;
+  transition: 0.5s;
+}
+.addButton {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-top: 0.2rem;
+  margin-right: 1rem;
+  background-color: #509fe4;
+}
+
+.horizontalPlus {
+  position: relative;
+  background-color: #ffffff;
+  width: 50%;
+  height: 12.5%;
+  left: 25%;
+  top: 43.75%;
+  border-radius: 2px;
+}
+.verticalPlus {
+  position: relative;
+  background-color: #ffffff;
+  width: 12.5%;
+  height: 50%;
+  left: 43.75%;
+  top: 12.5%;
+  border-radius: 2px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+  line-height: 1.2;
+}
+.name {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.nip {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #868e96;
+}
+.employees,
+.employees {
+}
+
+.employeesHeader,
+.addressHeader,
+.contractHeader {
+  font-size: 1.2rem;
+  display: flex;
+  height: 25px;
+  // max-width: 500px;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 650;
+}
+.twoInARowCon {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 8px;
+  grid-row-gap: 0px;
+}
+
+.addressList {
+  display: flex;
+  // max-width: 700px;
+  flex-direction: column;
+  margin-top: 1rem;
+  row-gap: 1rem;
+}
+.contractList {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  row-gap: 1rem;
+}
+
+.employeesList {
+  display: flex;
+  padding-top: 1rem;
+  flex-direction: column;
+  row-gap: 0.3rem;
+}
+.mainInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  max-width: 700px;
+}
+.leftInfo {
+  line-height: 1.3;
+  min-width: 200px;
+  // width: 200px;
+  //   text-wrap: nowrap;
+  //   overflow: hidden;
+}
+.customerNip {
+  font-weight: 600;
+}
+.contractValue {
+  margin-inline: 0.5rem;
+}
+.contractUtilValueTag,
+.contractValueTag,
+.nipTag {
+  line-height: 1.2;
+  font-weight: 600;
+  color: #868e96;
+}
+.contractUtilValueAmount,
+.contractValueAmount {
+  font-size: 0.85rem;
+  font-weight: 600;
+
+  text-align: right;
+}

@@ -1,0 +1,68 @@
+.customers {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.loading {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.header {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  top: 0rem;
+  padding-top: 0.6rem;
+  width: 100%;
+}
+.searchForm {
+  display: flex;
+  margin-right: 1rem;
+  margin-top: 0.3rem;
+  align-items: end;
+  justify-content: end;
+  gap: 0.5rem;
+}
+.customersList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  row-gap: 1rem;
+  width: 100%;
+}
+
+.addButton {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  background-color: #509fe4;
+  margin-right: 2rem;
+}
+
+.horizontalPlus {
+  position: relative;
+  background-color: #ffffff;
+  width: 50%;
+  height: 12.5%;
+  left: 25%;
+  top: 43.75%;
+  border-radius: 2px;
+}
+.verticalPlus {
+  position: relative;
+  background-color: #ffffff;
+  width: 12.5%;
+  height: 50%;
+  left: 43.75%;
+  top: 12.5%;
+  border-radius: 2px;
+}
+.title {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-left: 3rem;
+}
