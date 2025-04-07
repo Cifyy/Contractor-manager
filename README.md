@@ -1,0 +1,13 @@
+Built using React with backend running on postgreSQL and GO.
+
+## Data model diagram
+![Diagram](https://github.com/Cifyy/Contractor-manager/blob/main/resources/screenshots/database_diagram.png)
+
+
+## Screenshots
+![Orders](https://github.com/Cifyy/Contractor-manager/blob/main/resources/screenshots/orders.png)
+![Contracts](https://github.com/Cifyy/Contractor-manager/blob/main/resources/screenshots/contracts.png)
+![Customers](https://github.com/Cifyy/Contractor-manager/blob/main/resources/screenshots/customers.png)
+![Customer_info](https://github.com/Cifyy/Contractor-manager/blob/main/resources/screenshots/customer_info.png)
+![Add_Customer](https://github.com/Cifyy/Contractor-manager/blob/main/resources/screenshots/add_client.png)
+![Add_Contract](https://github.com/Cifyy/Contractor-manager/blob/main/resources/screenshots/add_contract.png)
