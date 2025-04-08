@@ -1,5 +1,5 @@
 Built using React with backend running on postgreSQL and GO.
-
+The project is still work in progress.
 ## Data model diagram
 ![Diagram](https://github.com/Cifyy/Contractor-manager/blob/main/resources/screenshots/database_diagram.png)
 
